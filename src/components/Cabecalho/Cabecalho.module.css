@@ -1,0 +1,31 @@
+.cabecalho {
+    background-color: #000000;
+    border-bottom: 2px solid #08f07c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 9999;
+}
+
+.cabecalho span {
+    font-size: 2rem;
+    color: #38d486;
+    font-weight: 500;
+
+}
+
+/*.cabecalho nav {
+    margin-right: 1rem;
+}
+*/
+
+.cabecalho a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-inline: 0.5rem;
+    font-size: 1.125rem;
+}
